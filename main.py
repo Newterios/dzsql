@@ -70,7 +70,7 @@ def delete_post_by_id(posts_id):
     return delete_post(posts_id)
 
 
-@app.route("/post/update/<posts_id>/<new_title>/<new_content>")
+@app.route("/posts/update/<posts_id>/<new_title>/<new_content>")
 def update_postf(posts_id, new_title, new_content):
     return update_post(posts_id, new_title, new_content)
 
